@@ -11,17 +11,22 @@ Não aplicável
 - CentOS
 
 ## Passo a Passo para instalação
-Serão citadas as instações da versão 8 com docker e versão 9 com kubernetes
-
-## Versão 8 com docker por padrão
+Siga os passos abaixo para a instalação do collect e posterior envio de dados para o gnocchi.
 
 1) Sugiro criar na instalaçao do Ubuntu o usuário chamado mano.
 
-pip install collectd-gnocchi
-pip install collectd
+
+
 yum install python3-collectd-gnocchi.noarch
+
 yum install python3-collectd
+
 touch /opt/collectd/var/log/collectd.log
+
+#pip install collectd ( a confirmar)
+
+pip install collectd-gnocchi
+
 
 2) Edite arquivo de configuração
 ```bashssssss
