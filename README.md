@@ -38,3 +38,5 @@ https://gnocchi.xyz/collectd.html
 https://dommgifer.gitbook.io/knowledge/openstack/gnocchi-and-collectd
 
 https://github.com/gnocchixyz/collectd-gnocchi
+
+https://wiki.monitoring-fr.org/nagios/integration/collectd
