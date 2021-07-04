@@ -4,9 +4,7 @@
 [collectd](https://www.collectd.org/)
 
 ## Requisitos mínimos de hardware
-- 2 processadores
-- 8 Gb de RAM
-- 60 Gb disco
+Não aplicável
 
 ## Sistema Operacional
 ##Ubuntu18.04 (64-bit variant required)
@@ -32,6 +30,8 @@ touch /opt/collectd/var/log/collectd.log
 Fontes:
 
 https://www.collectd.org/
+
+https://collectd.org/features.shtml
 
 https://gnocchi.xyz/collectd.html
 
