@@ -30,6 +30,7 @@ touch /opt/collectd/var/log/collectd.log
 ```
 
 Fontes:
+
 https://www.collectd.org/
 
 https://gnocchi.xyz/collectd.html
