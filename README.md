@@ -31,6 +31,9 @@ touch /opt/collectd/var/log/collectd.log
 
 Fontes:
 https://www.collectd.org/
+
 https://gnocchi.xyz/collectd.html
+
 https://dommgifer.gitbook.io/knowledge/openstack/gnocchi-and-collectd
+
 https://github.com/gnocchixyz/collectd-gnocchi
