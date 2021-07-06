@@ -27,6 +27,8 @@ touch /opt/collectd/var/log/collectd.log
 
 pip install collectd-gnocchi
 
+instalar liboping
+
 
 2) Edite arquivo de configuração
 ```bashssssss
@@ -47,3 +49,5 @@ https://github.com/gnocchixyz/collectd-gnocchi
 https://wiki.monitoring-fr.org/nagios/integration/collectd
 
 https://noping.cc/
+
+http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
