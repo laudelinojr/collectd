@@ -35,12 +35,6 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
 # http://collectd.org/
 #
 
-##############################################################################
-# Global                                                                     #
-#----------------------------------------------------------------------------#
-# Global settings for the daemon.                                            #
-##############################################################################
-
 #Hostname    "localhost"
 #FQDNLookup   true
 #BaseDir     "/var/lib/collectd"
@@ -48,14 +42,6 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
 #PluginDir   "/usr/lib64/collectd"
 #TypesDB     "/usr/share/collectd/types.db"
 
-
-#----------------------------------------------------------------------------#
-# Interval at which to query values. This may be overwritten on a per-plugin #
-# base by using the 'Interval' option of the LoadPlugin block:               #
-#   <LoadPlugin foo>                                                         #
-#       Interval 60                                                          #
-#   </LoadPlugin>                                                            #
-#----------------------------------------------------------------------------#
 #Interval     10
 
 #MaxReadInterval 86400
@@ -85,66 +71,13 @@ LoadPlugin memory
 LoadPlugin ping
 LoadPlugin python
 
-#LoadPlugin write_log
-#LoadPlugin write_prometheus
-
-
-#<Plugin aggregation>
-#  <Aggregation>
-#    #Host "unspecified"
-#    Plugin "cpu"
-#    #PluginInstance "unspecified"
-#    Type "cpu"
-#    #TypeInstance "unspecified"
-#
-#    GroupBy "Host"
-#    GroupBy "TypeInstance"
-#
-#    CalculateNum false
-#    CalculateSum false
-#    CalculateAverage true
-#    CalculateMinimum false
-#    CalculateMaximum false
-#    CalculateStddev false
-#  </Aggregation>
-#</Plugin>
-
-#<Plugin cpu>
-#  ReportByCpu true
-#  ReportByState true
-#  ValuesPercentage false
-#  ReportNumCpu false
-#  ReportGuestState false
-#  SubtractGuestState true
-#</Plugin>
-#
-
 #<Plugin exec>
 #       Exec "user:group" "/path/to/exec"
 #       NotificationExec "user:group" "/path/to/exec"
 #</Plugin>
 
-
-
-#<Plugin memory>
-#       ValuesAbsolute true
-#       ValuesPercentage false
-#</Plugin>
-
 #<Plugin ping>
 #  Host "10.159.205.12"
-#</Plugin>
-
-
-#<Plugin python>
-#       ModulePath "/path/to/your/python/modules"
-#       LogTraces true
-#       Interactive true
-#       Import "spam"
-
-#       <Module spam>
-#               spam "wonderful" "lovely"
-#       </Module>
 #</Plugin>
 
 <Plugin python>
@@ -169,6 +102,10 @@ Include "/etc/collectd.d"
 
 
 Fontes:
+
+https://github.com/gnocchixyz/collectd-gnocchi
+
+https://github.com/collectd/collectd/
 
 https://www.collectd.org/
 
