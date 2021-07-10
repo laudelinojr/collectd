@@ -12,21 +12,18 @@ Não aplicável
 ## Passo a Passo para instalação
 Siga os passos abaixo para a instalação do collect e posterior envio de dados para o gnocchi.
 
-1) 
-yum install python3-collectd-gnocchi.noarch
+1) yum install python3-collectd-gnocchi.noarch
+ 
+2) yum install python3-collectd
 
-yum install python3-collectd
+4) touch /opt/collectd/var/log/collectd.log
+ 
+5) pip install collectd-gnocchi
 
-touch /opt/collectd/var/log/collectd.log
+6) instalar liboping:
 
-#pip install collectd ( a confirmar)
-
-pip install collectd-gnocchi
-
-2) instalar liboping
-wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
-
-yum install liboping-1.10.0-12.el8.x86_64.rpm
+6.1) wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
+6.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
 
 
 3) Edite arquivo de configuração
