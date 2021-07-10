@@ -26,6 +26,8 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
 
 5.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
 
+Obs.: Este plugin não funcionou
+
 
 6) Edite arquivo de configuração
 ```
@@ -99,6 +101,20 @@ LoadPlugin python
 Include "/etc/collectd.d"
 
 ```
+
+7) Para sempre iniciar o serviço
+
+systemctl enable collectd.service
+
+8) Para iniciar o serviço a primeira vez
+
+systemctl start collectd.service
+
+9) Para verificar as métricas criadas pelo collect no gnocchi
+source arquivo_openstack.rc
+
+10) Execute os seguintes comandos gnocchi
+
 
 
 Fontes:
