@@ -16,17 +16,17 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
  
 2) yum install python3-collectd
 
-4) touch /opt/collectd/var/log/collectd.log
+3) touch /opt/collectd/var/log/collectd.log
  
-5) pip install collectd-gnocchi
+4) pip install collectd-gnocchi
 
-6) instalar liboping:
+5) instalar liboping:
 
-6.1) wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
-6.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
+5.1) wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
+5.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
 
 
-3) Edite arquivo de configuração
+6) Edite arquivo de configuração
 ```bashssssss
 ```
 
