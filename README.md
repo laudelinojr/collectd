@@ -22,9 +22,9 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
 
 5) instalar liboping:
 
-5.1) wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
+5.1 wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
 
-5.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
+5.2 yum install liboping-1.10.0-12.el8.x86_64.rpm
 
 Obs.: Este plugin não funcionou
 
