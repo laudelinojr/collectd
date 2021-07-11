@@ -22,9 +22,9 @@ Siga os passos abaixo para a instalação do collect e posterior envio de dados 
 
 5) instalar liboping:
 
-5.a wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
+5.1) wget http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/liboping-1.10.0-12.el8.x86_64.rpm
 
-5.b yum install liboping-1.10.0-12.el8.x86_64.rpm
+5.2) yum install liboping-1.10.0-12.el8.x86_64.rpm
 
 Obs.: Este plugin não funcionou
 
@@ -115,6 +115,13 @@ source arquivo_openstack.rc
 
 10) Execute os seguintes comandos gnocchi
 
+gnocchi resource list | grep collectd
+
+11) Anote o id do recurso e faça uma busca para visualizar as metricas, como o exemplo abaixo:
+
+gnocchi metric list | grep 62429693-e331-54c8-94c0-4c54982a6e72
+
+12) Segue 
 
 
 Fontes:
