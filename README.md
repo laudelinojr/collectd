@@ -151,3 +151,5 @@ https://unix.stackexchange.com/questions/122777/how-do-i-install-plugins-for-col
 https://collectd.org/documentation/manpages/collectd.conf.5.shtml#plugin_ping
 
 https://collectd.org/images/architecture-schematic.png
+
+https://collectd.org/features.shtml
