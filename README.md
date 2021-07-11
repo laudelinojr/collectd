@@ -147,3 +147,5 @@ http://ftp.uem.br/linux/CentOS/8.1.1911/opstools/x86_64/collectd-5/Packages/l/li
 https://wiki.monitoring-fr.org/nagios/integration/collectd
 
 https://unix.stackexchange.com/questions/122777/how-do-i-install-plugins-for-collectd
+
+https://collectd.org/documentation/manpages/collectd.conf.5.shtml#plugin_ping
