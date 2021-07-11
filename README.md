@@ -149,3 +149,5 @@ https://wiki.monitoring-fr.org/nagios/integration/collectd
 https://unix.stackexchange.com/questions/122777/how-do-i-install-plugins-for-collectd
 
 https://collectd.org/documentation/manpages/collectd.conf.5.shtml#plugin_ping
+
+https://collectd.org/images/architecture-schematic.png
