@@ -121,8 +121,6 @@ gnocchi resource list | grep collectd
 
 gnocchi metric list | grep 62429693-e331-54c8-94c0-4c54982a6e72
 
-12) Segue 
-
 
 Fontes:
 
