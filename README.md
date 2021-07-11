@@ -79,20 +79,20 @@ LoadPlugin python
 #</Plugin>
 
 #<Plugin ping>
-#  Host "10.159.205.12"
+#  Host "10.xxx.xxx.12"
 #</Plugin>
 
 <Plugin python>
   Import "collectd_gnocchi"
   <Module collectd_gnocchi>
-    Endpoint "http://10.159.205.8:8041"
+    Endpoint "http://10.XXX.XXX.8:8041"
     User admin
 
     Auth_Mode keystone
-    Auth_Url "http://10.159.205.8:5000/"
+    Auth_Url "http://10.XXX.XXX.8:5000/"
     Username admin
     Project_Name admin
-    Password keystoneadmin
+    Password keyxxxxxx
     Project_Domain_Name Default
     User_Domain_Name Default
    </Module>
